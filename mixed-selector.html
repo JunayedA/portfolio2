@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mixed selector</title>
+    <style>
+        *{
+            background-image: url('/vietnam-women-2961310_640.jpg');    
+        }
+        .green{
+            color: green;
+        }
+        /* common background for p tags */
+        .yellow-bg{
+            color: yellow;
+            background-color: greenyellow;
+        }
+        p{
+            color: blueviolet;
+            background-image: url('https://static.toiimg.com/photo/msid-58515713,width-96,height-65.cms');
+        }
+        h3{
+            color: crimson;
+        }
+        .hot{
+            color: red;
+        }
+        li.hot{
+            font: bold;
+        }
+        small.hot{
+            color: aquamarine;
+            background-color: cornflowerblue;
+        }
+        .ul-list{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: smaller;
+        }
+    </style>
+</head>
+<body>
+    <h1>This is <span class="green">heading</span> 1</h1>
+  <h2>This is heading 2</h2>
+  <h3>This is heading 3</h3>
+  <!-- <h4>This is heading 4</h4> -->
+  <h5>This is heading 5</h5>
+  <h6>This is heading 6</h6>
+  <p>Lorem ipsum dolor sit amet <span class="green">Lorem, ipsum dolor.</span>, adipisicing elit. Nobis delectus ab cum facere accusantium vel odio odit, recusandae natus exercitationem quam repellat debitis repellendus ipsam. Impedit rem incidunt praesentium eligendi.</p>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis quaerat neque facilis at explicabo error rerum mollitia. Necessitatibus voluptate distinctio quasi velit libero sed quibusdam quia quos in at! Quidem inventore, neque animi laborum, exercitationem, facilis nemo possimus voluptate at voluptatum molestiae? Laborum blanditiis deserunt consectetur enim accusamus cumque eaque?</p>
+  <div class="yellow-bg">
+    <p class="yellow-bg">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil perferendis natus nostrum aliquam doloribus quidem laboriosam at! Maxime vel consectetur inventore beatae reprehenderit ad unde dignissimos facilis repellat consequuntur temporibus explicabo accusamus natus voluptatum ipsa numquam ab, atque dicta quis velit esse vitae voluptatem? Dolorem, incidunt sed magnam totam illo fuga a? Nostrum, dolor debitis aperiam id quidem iusto repellat!</p>
+    <p class="hot">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil perferendis natus nostrum aliquam doloribus quidem laboriosam at! Maxime vel consectetur inventore beatae reprehenderit ad unde dignissimos facilis repellat consequuntur temporibus explicabo accusamus natus voluptatum ipsa numquam ab, atque dicta quis velit esse vitae voluptatem? Dolorem, incidunt sed magnam totam illo fuga a? Nostrum, dolor debitis aperiam id quidem iusto repellat!</p>
+    <ol>
+        <li>green</li>
+        <li>green</li>
+        <li class="hot">green</li>
+        <li>green</li>
+        <li class="hot">green</li>
+        <small class="hot">this is small tag</small>
+    </ol>
+
+</div>
+<ul class="ul-list">
+    <li>this is unordered list</li>
+</ul>
+</body>
+</html>

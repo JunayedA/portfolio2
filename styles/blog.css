@@ -1,0 +1,25 @@
+h3{
+    color: mediumblue;
+    /* text-decoration: line-through; */
+    text-decoration: underline wavy;
+    box-shadow: 50px 50px 10px;
+}
+.page-info{
+    background-color: lightcyan;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-shadow: 50px 50px 10px;
+
+    
+}
+.header{
+    height: 200px;
+    background-image: url("../img/download.jpeg");
+    /* background-size: 30%; */
+    background-repeat: no-repeat;
+    background-position: right;
+    /* background-size: cover; */
+    background-blend-mode: multiply;
+}
+input[type="text"]{
+    border: 1px solid black;
+}
